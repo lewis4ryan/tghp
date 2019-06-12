@@ -1,0 +1,377 @@
+
+body {
+    font-size:14px;
+    font-family:  Arial , sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/*	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
+}
+
+header h2{
+    font-size:22px;
+    font-weight:normal;
+    left:50%;
+    margin-left:-400px;
+    padding:22px 0;
+    position:absolute;
+    width:540px;
+}
+header a.stuts,a.stuts:visited{
+    border:none;
+    text-decoration:none;
+    color:#fcfcfc;
+    font-size:14px;
+    left:50%;
+    line-height:31px;
+    margin:23px 0 0 110px;
+    position:absolute;
+    top:0;
+}
+header .stuts span {
+    font-size:22px;
+    font-weight:bold;
+    margin-left:5px;
+}
+                                    
+.collum-2 a :hover{
+    text-decoration: none;
+}
+.collum-2 a{
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+}
+.collum-2 img{
+	width: 30px;
+	height: auto;
+}
+.collum-2-title{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.collum-2 {
+	text-align: center;
+	padding: 30px 0px 30px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.next-page{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.next-page img{
+	width: 20px;
+	height: auto;
+}
+.text-body h4{
+	font-size: 16px;
+}
+.hotline{
+	text-align: right;
+	margin-top: 10px;
+}
+/**/
+
+
+/*sub-menu*/
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f5f5f5;
+	z-index: 1;
+	list-style: none;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+/*.dropdown-content a{
+	color: black;
+	padding: 10px 10px;
+	text-decoration: none;
+}*/
+
+
+
+.tron_nho2{
+
+    width: 200px;
+    position: absolute;
+    margin-left: 232px;
+    margin-top: -74px;
+}
+
+.panel{
+    border-top: 0;
+    background: none;
+}
+
+
+.panel-heading::after{
+    content: "";
+    position: absolute;
+    right: -5px;
+    left: 0px;
+    bottom: -3px;
+    height: 3px;
+    background: #ecf3cb;
+}
+.panel-heading::before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: -3px;
+    width: 10px;
+    height: 80%;
+    background: transparent;
+    border: 3px solid #39b54a;
+    border-width: 0px 0px 3px 3px;
+    border-bottom-left-radius: 5px;
+    z-index: 2;
+}
+.panel-heading span {
+    position: relative;
+    z-index: 4;
+    background: #ecf3cb;
+    display: block;
+    padding: 10px 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 13px;
+}
+
+.panel-body{
+	background-color: #ecf3cb;
+    border: solid 3px #39b54a;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+	padding: 5px;
+}
+.fa-search:before {
+    content: none !important;
+}
+
+.button-search:hover{
+    background-color: #ea6709;
+}
+.collum{
+    width: 101%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0px 3px 6px 2px #a4c5d8d9;
+    padding: 20px;
+    margin-top: 20px;
+	min-height: 330px;
+}
+.collum a{
+  text-decoration: none;
+}
+.collum img{
+    width: 134px;
+    height: 110px;
+	transform: scale(0.9);
+    transition-duration: 2s;
+    -webkit-transition: scale(0.9);
+    -webkit-transition-duration: 1s;
+}
+.collum img:hover{
+	    transform: scale(1.2);
+    -webkit-transform: scale(1);
+}
+.collum .title{
+    color: #22AC39;;
+    padding:10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.collum .conten{
+    color: #000;
+    padding:  10px 0px 10px 0px;
+	font-size: 14px;
+}
+.collum .button img{
+   width: 28px;
+    height: 30px;
+    margin-top: 0px;
+}
+
+.collum-2{
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border: 1px #afb2a8 solid;
+}
+/* move text ご担当者の方へ to center */
+.small-panel{
+  padding-left: 15%;
+}
+/* move text ご担当者の方へ to center */
+.title-img{
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+	margin-left: 15px;
+}
+.note-title-img{
+	font-size: 18px;
+	margin-left: 33px;
+	font-weight: bold;
+}.text-content{
+	margin-left: 30px;
+    font-size: 18px;
+}
+.m-top-10{
+	padding-top: 10px;
+}
+.conten-img{
+    color: #000;
+    text-align: center;
+	min-height: 72px;
+	padding: 10px;
+}
+.footer div{
+    border-right: 1px #000 solid;
+    color: #000;
+    font-size: 20px;
+}
+
+
+
+  .image-box {
+/*	position: relative;*/
+/*	overflow: hidden;*/
+}
+.image-box::before {
+	content: "";
+	display: block;
+/*	padding-top: 100%;  */
+}
+.image-box .image {
+	background-image:url(../images/background/background.jpg);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+.image-box.ratio-1-1::before {
+	padding-top: 100%;
+}
+.image-box.ratio-2-1::before {
+	padding-top: 50%;
+}
+.image-box.ratio-1-2::before {
+	padding-top: 200%;
+}
+.image-box.ratio-4-3:before {
+	padding-top: 75%;
+}
+.image-box.ratio-5-3:before {
+/*	padding-top: 40%;*/
+}
+.image-box.ratio-16-9:before {
+	padding-top: 56.25%;
+}
+.row2{
+	margin-top: 5%;
+}
+/*
+.logo{
+	display: none;
+}
+*/
+
+
+
+.button-search img{
+	width: 25px;
+	height:23px;
+}
+.panel-heading img{
+    width: 24px;
+    height: 24px;
+    margin-top: -5px;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    text-decoration: none;
+    background-color: #f8f9fa;
+    color: #179b76;
+    font-weight: BOLD;
+}
+
+.dropdown-menu{
+	margin-top: -5px;
+}
+.button-collum span{
+	text-decoration: none;
+	color: #000;
+}
+
+.button-collum{
+	    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px gray solid;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-xl-12.col-lg-12.col-md-12.-col-sm-12.col-12.button :hover{
+	background-color: #d2ebdd;
+	
+}
+.text-body{
+	/* padding-bottom: 8px; */
+	border-bottom:1px gray solid;
+	width: 100%;
+	/* margin-bottom: 20px; */
+	padding: 20px 0px 10px 0px;
+}
+/* ttson-20190527- new request h4タグの部分はpタグにしてください。-start*/
+.text-body p {
+  margin-bottom: 0.1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.text-body span{
+  font-size: 0.7rem;
+}
+/* ttson-20190527- new request h4タグの部分はpタグにしてください -end*/
+.text-new{
+	width:100%;
+	border-left:6px #24ac39 solid;
+	margin-top: 30px;
+}
+.text-new span{
+	font-size: 29px;
+    color: #24ac39;
+    margin-left: 5px;
+    line-height: 50px;
+}
+.color-background{
+	margin-top:70px; background: #d2ebdd; padding: 20px;
+}
+.color-footer{
+	 margin-top:70px; background: #d2ebdd;padding-bottom: 20px
+}
+.margin-top-30{
+	margin-top: 10px;
+}
+.margin-top-50{
+	margin-top: 10px;
+}

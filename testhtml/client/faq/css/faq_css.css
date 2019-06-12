@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+.title-row-3 {
+    border-bottom: 3px solid #11a911;
+    border-top: 3px solid #11a911;
+    color: #11a911;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0 50px 0;
+    padding: 10px 0px 3px 0px;
+}
+/* title style is defined  */
+h2{
+	font-size: 24px;
+    margin-left: 3%;
+    line-height: 30px;
+}
+
+.row-column-counts {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+.row-column-counts>li {
+    max-width: 100%;
+	width: 100%;
+
+}
+.accordionstyle-spec .card {
+	background: #fff;
+	border-radius: 0px !important;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+
+}
+
+.accordionstyle-spec .card-header {
+    background: #f3fbf8;
+    border: none;
+    border-color: transparent;
+}
+.card-header:first-child {
+    border-radius: calc(.25rem - 0.05rem) calc(.25rem - 0.05rem) 0 0;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.collapse:not(.show) {
+    display: none;
+}
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.accordionstyle-spec .card-header h5 {
+    background: url("../images/img_q.png") 0 center no-repeat;
+    padding-left: 42px;
+    background-size: 21px;
+    font-size: 16px;
+}
+.accordionstyle-spec .card-header button {
+    cursor: pointer;
+    font-weight: 700;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    position: relative;
+    padding-right: 25px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+	color: #006641
+}
+.accordionstyle-spec .card-header button:focus {
+    outline: none;
+}
+.accordionstyle-spec .card-header button:hover {
+    color: #EC7C2B;
+}
+.card-body {
+
+    border-top: 1px dotted #999;
+}
+.list>li>a:before {
+    content: "\f0da";
+    color: #ec7c2b00;
+    position: absolute;
+    left: -15px;
+    top: -4px;
+    display: inline-block;
+	background: url("../images/img_a.png") 0 center no-repeat;
+    font: normal normal normal 30px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.list>li>a {
+    position: relative;
+    padding-left: 14px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #434343;
+	text-decoration: none;
+}
+.list {
+    list-style: none;
+    padding-left: 30px;
+
+}

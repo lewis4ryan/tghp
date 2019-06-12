@@ -1,0 +1,399 @@
+#example-basic{
+    margin: 5% auto;
+}
+
+.resume {
+    border-collapse: collapse;
+    font-family: sun-extA;
+    text-align: left;
+}
+textarea {
+    resize: none;
+}
+tr{
+    height: 30px;
+}
+
+th, td { min-width: 70px; }
+
+td {
+    height: 30px;
+    border: 1px solid black;
+    padding: 2px 8px !important;
+}
+
+#resume_form{
+    text-align: center;
+}
+
+.resume th {
+    padding-bottom: 12px;
+    text-align: left;
+    color: #333;
+    border: 0 ;
+    font-weight: normal;
+}
+
+.hidden{
+    visibility: hidden !important;
+}
+
+.row_2{
+    height: 60px;
+}
+
+.row_3{
+    height: 90px;
+}
+
+.row_6{
+    height: 180px;
+}
+
+.img {
+    border: 0;
+    padding-top: 0 !important;
+    padding-bottom: 2px !important;
+    /*padding: 0 3px 2px 3px !important;*/
+}
+
+.thumb{
+    border: dotted 1px black;
+    font-size: 10px;
+    padding: 0 !important;
+}
+
+#text_thumb{
+    margin-bottom: 0;
+}
+#example-basic-p-0 .thumb{
+    cursor: pointer;
+}
+
+#thumb{
+    max-height: 170px;
+    max-width: 120px;
+}
+
+.line, .line td{
+    /*height: 3px;
+    padding: 0;
+    border-top: 0;
+    border-bottom: 0.01rem solid black;*/
+}
+
+.no-top{
+    border-top: 0!important;
+}
+
+.no-bottom{
+    border-bottom: 0 !important;
+}
+
+.no-left{
+    border-left: 0!important;
+}
+
+.no-right{
+    border-right: 0!important;
+}
+
+.dotted{
+    border-top: 1px dotted black !important;
+}
+
+.l-dotted{
+    border-left: 1px dotted black!important;
+}
+
+.r-dotted{
+    border-right: 1px dotted black!important;
+}
+.r9 td{
+    border-bottom: 0;
+    border-top: 1px dotted black;
+}
+.r9  td:nth-child(1){
+    border-right: 1px dotted   black !important;
+}
+
+.r9 td:nth-child(2){
+    border-left: 0 !important;
+    border-right: 1px  dotted   black !important;
+
+}
+.r9 td:nth-child(3){
+    border-left: 0 !important;
+}
+
+.first td{
+    border-top: 0 !important;
+}
+
+.last td{
+    border-bottom: 1px  solid black!important;
+}
+
+.heading  td{
+    border-top: 1px  solid   black!important;
+}
+.heading  td:nth-child(1){
+    border-right: 1px  dotted   black!important;
+    border-bottom: double black!important;
+}
+
+.heading td:nth-child(2){
+    border-left: 0;
+    border-right: 1px  dotted   black!important;
+    border-bottom: double black!important;
+}
+
+.heading td:nth-child(3){
+    border-left: 0!important;
+    border-bottom: double black!important;
+}
+
+.heading-line td{
+    border-bottom: double black!important;
+}
+
+td input,td textarea{
+    width: 100%;
+    padding-left: 5px;
+}
+
+#print{
+    margin-top: 15px;
+}
+
+.btn-area{
+    /*text-align: left;*/
+}
+
+.form-check{
+    display: inline-block !important;
+    padding-left: 0px !important
+}
+
+.address_filter input{
+    max-width: 200px;
+}
+
+.col-thumb{
+    min-width: 130px;
+}
+
+.resume input::-webkit-input-placeholder {
+    font-size: 13px;
+}
+
+.resume .holder_center::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.birthdate input[name='birth_date_year']{
+    width: 65px;
+    color: #666;
+}
+
+.birthdate input[name='birth_date_month'], .birthdate input[name='birth_date_day']{
+    width: 45px;
+}
+
+.form-check-label img{
+    width: 15px !important;
+}
+
+.form-check-label{
+    font-size: 13px;
+    vertical-align: top;
+}
+.checkbox1 {
+    max-width: 14px !important;
+}
+
+.resume {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    max-width: 800px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.form-check:first-child{
+    margin-right: 5px;
+}
+
+.form-check-input{
+    position: relative;
+    margin: 0;
+    width: inherit;
+}
+
+.steps .number{
+    display: none;
+}
+
+.steps ul .done a{
+    background: #eee !important;
+    color: #aaa !important;
+}
+
+.clear{
+    clear: both;
+}
+
+.wizard>.actions{
+    text-align: center !important;
+}
+.wizard>.steps{
+    text-align: center;
+}
+.wizard>.steps>ul>li {
+    width: 80px !important;
+    margin-right: 40px;
+}
+
+.wizard>.steps>ul>li:last-child {
+    margin-right: 0px;
+}
+
+.wizard ul{
+    display: inline-block;
+}
+
+.wizard>.steps .current a, .wizard>.steps .current a:hover, .wizard>.steps .current a:active{
+    background: #70AD47;
+}
+
+.wizard>.actions a, .wizard>.actions a:hover, .wizard>.actions a:active{
+    background: #23AC39;
+}
+.wizard>.steps a, .wizard>.steps a:hover, .wizard>.steps a:active{
+    padding: 0.5em 1em;
+}
+
+/*
+.wizard>.steps .done a, .wizard>.steps .done a:hover, .wizard>.steps .done a:active{
+    background: #f47722;
+    color: #fff;
+}
+*/
+
+.has_img{
+    border: 0 !important;
+}
+
+.no_img{
+    padding-left: 5px;
+}
+
+.btn_section{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.gender{
+    vertical-align: middle;
+}
+.title-row-3 {
+    border-bottom: 3px solid #11a911;
+    border-top: 3px solid #11a911;
+    color: #11a911;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 35px 0 50px 0;
+    padding: 10px 0px 3px 0px;
+}
+.note {
+  color: red;
+}
+.actions ul .disabled{
+    display: none;
+}
+/*
+.wizard>.steps .disabled a, .wizard>.steps .disabled a:hover, .wizard>.steps .disabled a:active{
+    background: #f47722;
+    color: #fff;
+}*/
+
+.step2 li a[href='#next']{
+    display: none;
+}
+
+.step3 .actions{
+    display: none;
+}
+
+#export_pdf, #resume_send_mail, .btn-home {
+    background: #11a911 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+
+.btn_section .spinner-border-sm{
+    width: .8rem;
+    height: .8rem;
+    border-width: .1em;
+    vertical-align: middle;
+}
+
+#step3{
+    text-align: center;
+}
+.wizard>.content>.body{
+    float: none;
+}
+.sex {
+  padding-left: 3px;
+}
+
+.step2_btn{
+    display: none !important;
+}
+
+.step2 .step2_btn{
+    display: block !important;
+}
+
+.custom_select{
+    width: inherit;
+    display: inline;
+    height: inherit;
+    color: #666;
+    padding: 0 5px;
+}
+.steps ul{
+    overflow: hidden;
+}
+.steps li a{
+    position: relative;
+    width: 80px !important;
+    height: 80px !important;
+    line-height: 60px !important;
+    border-radius: 100% !important;
+    margin: 0 !important;
+    border: solid 1px #70AD47;
+    background: #fff ;
+    color: #70AD47;
+    padding: .5em 0 !important;
+}
+
+.steps li .fa{
+    position: absolute;
+    right: -25px;
+    top: 10px;
+    line-height: 55px !important;
+    color: #a5a5a5;
+    font-size: 22px;
+}

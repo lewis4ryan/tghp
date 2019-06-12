@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@media screen and (max-width:768px){
+
+.table01 {
+	width: 100%;
+	margin:0 auto 30px auto;
+	background:#fff;
+}
+.table01 th{
+	display:block;
+	padding: 10px;
+	text-align: center;
+	font-weight:bold;
+	background: #d3f4e6;
+}
+.table01 td{
+	display:block;
+	padding: 10px;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+.table01 td img{
+	width:90%;
+}
+
+}

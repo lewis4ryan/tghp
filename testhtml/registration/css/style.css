@@ -1,0 +1,56 @@
+.table_custom th{
+    text-align: left;
+}
+
+.table_custom th div{
+    position: relative;
+}
+
+.table_custom th img{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+#step3 {
+    text-align: center;
+}
+
+.btn_section {
+    text-align: center;
+    margin: 10px 0;
+}
+.tab-menu{
+	text-align: center;
+}
+.tab-menu ul li {
+	display: inline-block;
+}
+.active{
+	background: #73bb2f;
+    color: #fff !important;
+}	
+.tab-menu li{
+	padding: 40px 30px;
+    color: #73bb2f;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.tab-menu span{
+	font-size: 24px;
+    font-weight: bold;
+    color: #b5b4b4;
+}
+.title-row-3{
+	text-align: center;
+    margin: 35px 0 50px 0;
+    padding: 10px 0px 3px 0px;
+    border-bottom: 3px solid #11a911;
+    border-top: 3px solid #11a911;
+}
+.title-row-3 h3{
+    color: #11a911;
+    font-weight: bold;
+    font-size: 30px;
+}
+

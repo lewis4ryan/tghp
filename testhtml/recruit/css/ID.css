@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title-row-3 {
+    border-bottom: 3px solid #11a911;
+    border-top: 3px solid #11a911;
+    color: #11a911;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 3% 0 50px 0;
+    padding: 10px 0px;
+}
+.title-row-3-sub {
+  text-align:center;
+  color:#fff;
+  margin-bottom:30px;
+  padding:10px 0 10px 0;
+  font-style:bold;
+  background:#5d5d5d;
+}
+.table_type1 {
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0;
+	margin-bottom: 5%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+@media print, screen and (min-width: 769px){
+.table_type1 th {
+    width: 20%;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    /* background: #d3f4e6; */
+    /* border: 1px solid #fff; */
+    border-top: 3px solid #11a911;
+    padding: 10px;
+}
+.table_type1 td {
+    vertical-align: top;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+.td-blank {
+  border-top: none !important;
+}
+}
+@media print, screen and (max-width: 768px){
+    .table_type1 th {
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: top;
+        /* background: #d3f4e6; */
+        /* border: 1px solid #ccc; */
+        border-top: 3px solid #11a911;
+        padding: 10px;
+    }
+    .table_type1 td {
+        display: block;
+        vertical-align: top;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    .td-blank {
+      border-top: none !important;
+    }
+  }

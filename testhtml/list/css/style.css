@@ -1,0 +1,130 @@
+.fs-dropdown {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-top: 5px;
+    z-index: 1000;
+}
+.title{
+    border-bottom: 2px solid #37b44c;
+    display: flex;
+    align-items: center;
+}
+.title img {
+    width: 16px;
+    height: 16px;
+    margin-top: -5px;
+}
+.title h3{
+    color: #37b44c;
+    font-weight: bold;
+    margin-left: 1%;
+}
+.div-left{
+   width: 90%;
+   margin-top: 20px;
+
+}
+.div-right{
+    width: 90%;
+    margin-top: 20px;
+
+}
+
+.title-row{
+    background: #c6e6d9;
+    padding: 7px 0px 7px 0px;
+    font-weight: bold;
+    color:#000;
+}
+.title-row span{
+    margin-left: 2%;
+}
+/****************left**************/
+.img-1 {
+   text-align: center;
+}
+.img-1 img {
+    width: 90%;
+    height: auto;
+ }
+/************right*****************/
+.select{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.fs-wrap {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1;
+    width: 98%;
+
+}
+.milti{
+    padding: 0px !important;
+    margin-top: 10px;
+}
+.fs-label-wrap {
+    position: relative;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    cursor: default;
+}
+.fs-label-wrap, .fs-dropdown {
+     box-shadow: none !important;
+}
+.check-box{
+    background: #fffae6;
+    border: 2px #39b54a solid;
+    padding: 15px;
+}
+.text{
+    width: 100%;
+    border-bottom: 1px solid #37b44c;
+}
+.text span{
+    font-weight: bold;
+    color: #000;
+}
+.check-box p{
+    width: 10px;
+    height: 10px;
+    background-color: #37b44c;
+    float: left;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+.check-box span{
+    color: #000;
+    margin-left: 1%;
+}
+.mr-top-10{
+    margin-top: 10px;
+}
+.mr-top-40{
+    margin-top: 40px;
+}
+.mr-bottom-40{
+    margin-bottom: 40px;
+}
+.search{
+    text-align: center;
+}
+.btn-search{
+    color: #fff;
+    background-color: #F98947;
+    border-color: #F98947;
+    width: 60%;
+
+}
+.link-item{
+    border: 2px #39b54a solid;
+    padding: 15px;
+}
+.title-left{
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}

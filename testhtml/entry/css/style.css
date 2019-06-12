@@ -1,0 +1,22 @@
+.table_custom th{
+    text-align: left;
+}
+
+.table_custom th div{
+    position: relative;
+}
+
+.table_custom th img{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+#step3 {
+    text-align: center;
+}
+
+.btn_section {
+    text-align: center;
+    margin: 10px 0;
+}

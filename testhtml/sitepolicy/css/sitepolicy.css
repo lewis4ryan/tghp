@@ -1,0 +1,61 @@
+
+body{
+    font: 14px/2 "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+}
+
+.sitepolicy{
+    margin-bottom: 20px;
+}
+.title-row {
+    border-bottom: 3px solid #11a911;
+    border-top: 3px solid #11a911;
+    color: #11a911;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    padding: 10px 0px 3px 0px;
+}
+
+  
+.img-title{
+    width: 8px;
+    height: 22px;
+    background-image: linear-gradient(to right, #91e1bf , #11a911);
+    float: left;
+    border-radius: 1px;
+}
+.title span{
+    font-weight: bold;
+    margin-left: 1%;
+    flex-grow: 1;
+ }
+.row-title{
+    height: 2px;
+    background: #59C872;
+    margin-bottom: auto;
+    margin-top: auto;
+    flex-grow:30;
+}
+span{
+    color:#000;
+   
+}
+.privacy{
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+.title{
+  
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+strong{
+    color: #000;
+}
+span.mr-left{
+    margin-left: 1%;
+}
