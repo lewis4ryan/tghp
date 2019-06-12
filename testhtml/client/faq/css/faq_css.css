@@ -109,6 +109,7 @@ h2{
     border-top: 1px dotted #999;
 }
 .list>li>a:before {
+    width: 22px;
     content: "\f0da";
     color: #ec7c2b00;
     position: absolute;
