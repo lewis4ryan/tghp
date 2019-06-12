@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* CSS Document */
+.mrg-top{
+    margin-top: 5%;
+}
+.footer {
+    margin-top: 40px;
+    margin-left: 2%;
+}
+
+.footer nav ul {
+    text-decoration: none;
+}
+
+.footer nav ul li {
+    list-style: none;
+    float: left;
+    padding-left: 5px;
+    padding-right: 13px;
+    border-right: 1px solid #000;
+    margin-top: 10px;
+}
+
+.footer nav ul li a {
+    color: #000;
+}
+ul.navbar-nav li.nav-item ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #11A911;
+}
+
+.top-page {
+    display: block;
+}
+
+.color-final-footer {
+    background: #818285;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.margin-top-3 {
+    margin-top: 3px;
+}
+
+.icon-footer {
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+.icon-instag {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-facebook {
+    width: 50px;
+    height: 45px;
+}
+
+.color-footer {
+    margin-top: 20px;
+    background: #d2ebdd;
+    padding: 10px;
+}
+
+.color-content {
+    margin-top: 20px;
+    background: #d9eedf;
+    padding: 50px;
+}
+@media screen and (max-width:576px) {
+    .color-final-footer {
+        font-size: 12px;
+    }
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+  }

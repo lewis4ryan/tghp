@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: "KozGoPr6N-Light";
+    src: url("../font/kozuka-font/KozGoPr6N-Light.otf");
+}
+
+@font-face {
+    font-family: "KozGoPro-light ";
+    src: url("../font/kozuka-font/KozGoPro-Light.otf");
+}
+
+@font-face {
+    font-family: "KozMinPr6N-Bold";
+    src: url("../font/kozuka-font/KozMinPr6N-Bold.otf");
+}
+
+@font-face {
+    font-family: "KozMinPr6N-Heavy";
+    src: url("../font/kozuka-font/KozMinPr6N-Heavy.otf");
+}
+
+@font-face {
+    font-family: "KozGoPro-medium ";
+    src: url("../font/kozuka-font/KozGoPro-Medium.otf");
+}
+
+@font-face {
+    font-family: "KozGoPro-heavy ";
+    src: url("../font/kozuka-font/KozGoPro-Heavy.otf");
+}
+
+@font-face {
+    font-family: "KozGoPro-bold ";
+    src: url("../font/kozuka-font/KozGoPro-Bold.otf");
+}
+@font-face {
+    font-family: "COOLVETI";
+    src: url("../font/kozuka-font/COOLVETI.TTF");
+}
+@font-face {
+    font-family: "DF-KaGei-W4";
+    src: url("../font/DF-KaGei-W4.ttc");
+}
+@font-face {
+    font-family: "DF-KaGei-W5";
+    src: url("../font/DF-KaGei-W5.ttc");
+}
+@font-face {
+    font-family: "DF-KaGei-W6";
+    src: url("../font/DF-KaGei-W6.ttc");
+}
+.font_one {
+    font-family: COOLVETI;
+    color: white;
+    letter-spacing:3px;
+    margin-bottom: 0px;
+}
+
+.text_one {
+    float: left;
+
+}
+
+.text_two {
+    color: white;
+    position: absolute;
+    font-family: DF-KaGei-W4;
+}
+.text_two p{
+	margin-bottom: 5px!important;
+	font-size: 15px;
+}
+/* .name {
+    color: white;
+    text-align: center;
+    font-size: 84px;
+    text-shadow: 1px 9px 12px #2b2a2a;
+    font-family:DF-KaGei-W5;
+    letter-spacing:12px;
+    margin-bottom: -14px !important;
+} */
+
+.text-name {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: DF-KaGei-W6;
+    letter-spacing: 12px;
+    text-shadow: 1px 9px 12px #2b2a2a;
+}
+
+.collum .title {
+    font-family: KozGoPro-bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: KozGoPro-medium;
+}
