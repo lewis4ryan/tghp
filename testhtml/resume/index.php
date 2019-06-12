@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $birth_age = isset($_POST['birth_age']) && !empty($_POST['birth_age']) ? $_POST['birth_age'] : '&nbsp;&nbsp;';
 
-    $address_filter = isset($_POST['address_filter']) && !empty($_POST['address_filter']) ? $_POST['address_filter'] : '〒';
+    $address_filter = isset($_POST['address_filter']) && !empty($_POST['address_filter']) ? '〒 '.$_POST['address_filter'] : '〒';
     $gender = isset($_POST['gender'])? $_POST['gender'] : '';
 
     $img_file = isset($_POST['img_64'])? $_POST['img_64'] : '';

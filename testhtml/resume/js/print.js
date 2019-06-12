@@ -49,11 +49,10 @@ $(document).ready(function() {
       ],
       address: {
         '#address': '%3%4%5',
-        '#phonetic_3': '%H8%H9'
+        '#phonetic_3': '%ASHV8%ASHV9'
       }
     });
   });
-
 });
 
 function cbChange(obj) {

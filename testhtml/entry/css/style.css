@@ -20,3 +20,76 @@
     text-align: center;
     margin: 10px 0;
 }
+
+.input-inline{
+    display: inline-block;
+}
+
+.form_error{
+    color: red;
+    display: none;
+}
+
+.wizard>.steps {
+    text-align: center;
+}
+
+.steps ul {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.wizard>.steps>ul>li {
+    width: 80px !important;
+    margin-right: 40px;
+}
+
+.wizard>.steps .current a, .wizard>.steps .current a:hover, .wizard>.steps .current a:active {
+    background: #70AD47;
+}
+
+.wizard>.actions a, .wizard>.actions a:hover, .wizard>.actions a:active {
+    background: #23AC39;
+}
+
+.steps li .fa {
+    position: absolute;
+    right: -25px;
+    top: 10px;
+    line-height: 55px !important;
+    color: #a5a5a5;
+    font-size: 22px;
+}
+
+.steps li a {
+    position: relative;
+    width: 80px !important;
+    height: 80px !important;
+    line-height: 60px !important;
+    border-radius: 100% !important;
+    margin: 0 !important;
+    border: solid 1px #70AD47;
+    background: #fff;
+    color: #70AD47;
+    padding: .5em 0 !important;
+}
+
+.steps .number {
+    display: none;
+}
+
+.actions ul .disabled {
+    display: none;
+}
+
+#btn_step1{
+    color: #fff;
+}
+
+#entry-steps .actions {
+    display: none;
+}
+
+.wizard>.content>.body{
+    float: none !important;
+}

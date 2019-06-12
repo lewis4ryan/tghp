@@ -17,7 +17,7 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 title-row-3">
                 <h3> 会社概要</h3>
             </div>
-            <p align="center"><img src="/step/images/img_flow01.png" alt="入力"></p>
+            <p align="center"><img src="./images/img_flow01.png" alt="入力"></p>
             <div id="step3">エラーが発生しました。</div>
             <div class="btn_section">
                 <a href="/" class="btn btn-success btn-home">トップ</a>
