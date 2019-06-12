@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.carousel-control-prev-icon {
+    background-image: url("../images/prev.png");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/next.png");
+}
+
+.parallelogram {
+    width: 90%;
+    height: 36px;
+    background: #36b449;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(-30deg);
+    margin: 0 auto;
+}
+
+.w-95 {
+    padding: 20px 0px 20px 0px
+}
+
+.title-slider {
+    border-left: 5px solid #36b449;
+    color: #36b449;
+    font-size: 20px;
+    margin-left: 8%;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.title-post {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 15%;
+    left: 12%;
+}
+
+.b-bottom {
+    border-bottom: 1px solid #36b449;
+    padding: 0px 0px 9px 2px;
+    margin-bottom: 15px;
+}
+
+.color-slider {
+    margin-top: 70px;
+    background: #d2ebdd;
+    padding: 30px;
+}
+
+@media screen and (min-width:1200px) {
+    .w-100 {
+        width: 30%!important;
+        height: auto;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 5% !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 5%;
+        bottom: 20px;
+        left: 35%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #000;
+        text-align: left;
+        top: 0px;
+    }
+    .carousel-item .w-100 {
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width:1200px) and (min-width:768px) {
+    .w-100 {
+        width: 30%!important;
+        height: auto;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 5% !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 5%;
+        bottom: 20px;
+        left: 35%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #000;
+        text-align: left;
+        top: 0px;
+        font-size: 10px;
+    }
+    .carousel-caption h2 {
+        font-size: 10px;
+    }
+    .w-95 {
+        padding: 20px 0px 20px 0px;
+        margin: 5px 0px 5px 0px;
+    }
+    .color-slider {
+        margin-top: 15px;
+        background: #d2ebdd;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:576px) {
+    .w-100 {
+        width: 30%!important;
+        height: auto;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 5% !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 5%;
+        bottom: 20px;
+        left: 35%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #000;
+        text-align: left;
+        top: 0px;
+        font-size: 10px;
+    }
+    .carousel-caption h2 {
+        font-size: 10px;
+    }
+    .w-95 {
+        padding: 20px 0px 20px 0px;
+        margin: 5px 0px 5px 0px;
+    }
+    .color-slider {
+        margin-top: 15px;
+        background: #d2ebdd;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .w-100 {
+        width: 30%!important;
+        height: auto;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 5% !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 5%;
+        bottom: 20px;
+        left: 35%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #000;
+        text-align: left;
+        top: 0px;
+        font-size: 10px;
+    }
+    .carousel-caption h2 {
+        font-size: 10px;
+    }
+    .w-95 {
+        padding: 20px 0px 20px 0px;
+        margin: 5px 0px 5px 0px;
+    }
+    .color-slider {
+        margin-top: 15px;
+        background: #d2ebdd;
+        padding: 5px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: inline-block;
+        width: 20px;
+        height: 16px;
+    }
+    .parallelogram {
+        transform: skew(0deg) !important;
+        margin: 0 auto;
+        margin-top: 4px !important;
+    }
+    .title-post {
+        font-size: 15px!important;
+        font-weight: bold;
+        left: 10%!important;
+    }
+    .title-slider {
+        font-size: 15px !important;
+    }
+}
